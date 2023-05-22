@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../components/Document/Resume.pdf"
 
 export default function About() {
   return (
@@ -46,8 +47,8 @@ export default function About() {
                   </li>
                 </ul>
                 <a
-                  href="/demo/react/simone/demo/static/media/resume.c84e759e31a37c0be66e.pdf"
-                  download=""
+                  href={resume}
+                  download
                   className="btn btn-primary rounded-pill"
                 >
                   Download CV
