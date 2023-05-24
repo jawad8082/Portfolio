@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Result = () =>{
-  alert("Your message has been send Successfully");
+  alert("Your message has been sent Successfully");
 }
 
 export default function Contact() {
